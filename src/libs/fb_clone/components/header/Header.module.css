@@ -1,0 +1,15 @@
+
+.circleButton{
+    background-color: var(--color-bg-circle-btn) !important;
+    color: var(--color-cl-circle-btn) !important;
+    margin: 0px 5px !important;
+}
+
+.button{
+    padding: 10px 40px !important;
+    color: var(--color-cl-btn) !important;
+}
+
+header .selected{
+    color: var(--color-blue-1) !important;
+}
