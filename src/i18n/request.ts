@@ -10,7 +10,7 @@ export default getRequestConfig(async () => {
   const acceptLang = (await headers()).get('accept-language') || '';
   const preferred = acceptLang.split(',')[0]?.split('-')[0] as Locale | undefined;
 
-  let locale: Locale = cookieLocale && locales.includes(cookieLocale)
+  const locale: Locale = cookieLocale && locales.includes(cookieLocale)
     ? cookieLocale
     : preferred && locales.includes(preferred)
       ? preferred
