@@ -1,0 +1,27 @@
+{
+  "Pages": {
+    "Home": {
+      "Text_Contact_List":"Người liên hệ",
+      "Text_Notification_Birthday":"Sinh nhật",
+      "Text_Friend_Invitation":"Lời mời kết bạn",
+      "Text_Group_Chat":"Nhóm chat"
+    }
+  },
+  "Components": {
+    "Post": {
+      "Button_Reaction": "Thích",
+      "Button_Comment": "Bình luận",
+      "Button_Share": "Gửi"
+    },
+    "PostComposerCard": {
+      "Button_Livestream": "Video trực tiếp",
+      "Button_Reaction&Activity": "Cảm xúc/hoạt động",
+      "Button_Add_Video&Image": "Ảnh/video",
+      "Placeholder": "{name} ơi, bạn đang nghĩ gì thế?"
+    }
+  },
+  "Public":{
+    "Text_More":"Xem thêm",
+    "Text_More_All":"Xem tất cả"
+  }
+}

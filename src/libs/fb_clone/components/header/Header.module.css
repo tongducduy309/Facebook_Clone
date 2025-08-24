@@ -1,13 +1,18 @@
-
+.header{
+    flex-grow: 1;
+    padding:3px 10px;
+    background-color:var(--color-white-1);
+}
 .circleButton{
-    background-color: var(--color-bg-circle-btn) !important;
-    color: var(--color-cl-circle-btn) !important;
+    background-color: var(--bg-circle-btn) !important;
+    color: var(--cl-circle-btn) !important;
     margin: 0px 5px !important;
 }
 
 .button{
     padding: 10px 40px !important;
-    color: var(--color-cl-btn) !important;
+    color: var(--cl-btn) !important;
+    height: 100%;
 }
 
 header .selected{
