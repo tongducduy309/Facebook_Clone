@@ -1,7 +1,6 @@
 'use client';
 import Box from "@mui/material/Box";
-import { Avatar, Button, IconButton, Stack, Typography } from "@mui/material";
-import { useTranslations } from 'next-intl';
+import { Avatar, Stack, Typography } from "@mui/material";
 import { useState } from "react";
 import { UserOnlineRes } from "@/libs/shared/modules/User";
 import FBButton from "@/components/Button/component";

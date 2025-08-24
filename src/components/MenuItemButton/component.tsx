@@ -1,9 +1,6 @@
 'use client';
 import Box from "@mui/material/Box";
-import { Avatar, Button, IconButton, Stack, Typography } from "@mui/material";
-import { useTranslations } from 'next-intl';
-import { useState } from "react";
-import { UserOnlineRes } from "@/libs/shared/modules/User";
+import { Avatar, Typography } from "@mui/material";
 interface Props {
     title?:string;
     image?:string;

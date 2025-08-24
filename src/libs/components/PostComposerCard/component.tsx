@@ -2,7 +2,7 @@
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import styles from "./style.module.css";
-import { Avatar, Button, IconButton, Stack, Typography } from "@mui/material";
+import { Avatar, Stack} from "@mui/material";
 import { useTranslations } from 'next-intl';
 import { useState } from "react";
 import { PostRes } from "@/libs/shared/modules/Post";
