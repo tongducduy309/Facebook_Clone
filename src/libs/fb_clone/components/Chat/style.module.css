@@ -1,0 +1,19 @@
+.chat{
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    max-width: 380px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.avatar{
+    margin-right: 5px;
+}
+
+.button{
+    text-transform: none;
+    width: 100%;
+}
+

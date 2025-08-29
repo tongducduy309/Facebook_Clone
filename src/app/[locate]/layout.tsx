@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import {getLocale} from 'next-intl/server';
+import { Chat } from "@/libs/fb_clone/components/Chat/component";
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -26,8 +27,9 @@ export default async function RootLayout({
  
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body suppressHydrationWarning>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      <body suppressHydrationWarning style={{position:'relative'}}>
+        <NextIntlClientProvider>{children} <Chat></Chat></NextIntlClientProvider>
+        
       </body>
     </html>
   );
